@@ -8,18 +8,19 @@
 ####################################################
 
 # Site settings
-title: "Baillie Gifford Pandemic Science Hub"
-email: "psh@ed.ac.uk"
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.psh.ac.uk" # the base hostname & protocol for your site, e.g. http://example.com
+title: "Redron - Jekyll Premium Theme"
+email: "themeix@gmail.com"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: " " # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/img/logo/logo.png
-description: "We use human genomics and experimental medicine to rapidly find and test effective drugs."
-keywords: "pandemic, genomics, critical care, GenOMICC, THT, PSH, lung, experimental medicine"
-mailclimp: ''
-facebook: ''
-instagram: ''
-twitter: ''
-pinterest: ''
+description: "Redron is a responsive Jekyll template for your business website"
+keywords: "jekyll, minimal jekyll, jekyll theme, responsive jekyll, seo friendly blog, super fast blog, responsive"
+mailclimp: 'https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884'
+facebook: https://facebook.com/themeix
+instagram: https://instagram.com/themeix
+twitter: https://twitter.com/themeix_com
+pinterest: https://pinterest.com/themeix
+
 
 # Build settings
 markdown: kramdown
@@ -28,6 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+
 
 # Site configuration for the Jekyll 2 Pagination Gem
 pagination:
