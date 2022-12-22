@@ -10,7 +10,7 @@
 # Site settings
 title: "Baillie Gifford Pandemic Science Hub"
 email: "psh@ed.ac.uk"
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.psh.ac.uk" # the base hostname & protocol for your site, e.g. http://example.com
 logo: /assets/img/logo/logo.png
 description: "Following genetic clues to effective therapies"
