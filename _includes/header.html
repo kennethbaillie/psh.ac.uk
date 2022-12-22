@@ -18,15 +18,6 @@
                     {% include logo.html %}
                 </div>
                 <div class="col-xl-10 col-lg-10 col-md-9">
-                    <div class="header-right">
-                        <!-- search option start -->
-                        <div class="search-inner">
-                            <a class="main-search" data-bs-toggle="modal" data-bs-target="#redron-search" href="#"><i class="fa fa-search"></i></a>
-                           
-                        </div>
-                        <!-- search option end -->
-                        <a href="{{'/contact' | relative_url }}" class="hd-btn">Request a quote </a>
-                    </div>
                     <div class="header_menu f-right">
                         <nav id="mobile-menu">
                             {% include navigation.html %}
@@ -42,15 +33,3 @@
 </header>
 <!-- End header area -->
   
-  <!-- Modal -->
-  <div class="modal modal-search-form fade" id="redron-search" tabindex="-1" aria-labelledby="redron-searchLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-          <form action="" method="post" class="search-form">
-            <input type="text" id="search-input" name="q" class="form-control" placeholder="Search...">
-            <i class="fa fa-search"></i>
-        </form>
-        <div id="results-container"></div>
-      </div>
-    </div>
-  </div>
