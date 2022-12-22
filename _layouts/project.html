@@ -52,12 +52,6 @@ layout: default
                             </ul>
                         </div>
                     </div>
-                    <div class="new-project">
-                        <div class="project-new">
-                            <h4>Are you ready new cleaning project?</h4>
-                            <a class="hire-btn" href="https://docs.google.com/forms/">Contact us</a>
-                        </div>
-                    </div>
                 </div>
                 <!-- End Column -->
                 <div class="col-xl-8 col-lg-8 col-md-7">
@@ -65,30 +59,14 @@ layout: default
                         {{page.content}}
                     </div>
                 </div>
+                <div class="col-xl-8 col-lg-8 col-md-7">
+                    {% include sections/project-carousel.html %}
+                </div>
                 <!-- End single page -->
             </div>
         </div>
         <!-- End main content -->
     </div>
     <!-- End portfolio Area -->
-    <div class="brand-area bg-color ">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="brand-content">
-                        <div class="brand-carousel owl-carousel">
-                            {% for brand in site.data.brands %}
-                            {% if brand.img_src %}
-                            <div class="single-brand-item">
-                                <a href="{{brand.url | relative_url}}" target="_blank"><img
-                                        src="{{brand.img_src | relative_url }}" alt="{{brand.name}}"></a>
-                            </div>
-                            {% endif %}
-                            {% endfor %}
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 </main>
