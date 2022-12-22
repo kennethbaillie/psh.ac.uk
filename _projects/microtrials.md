@@ -1,20 +1,20 @@
 ---
 layout: project
 title: Microtrials
-img_src: '/assets/img/project/p5.jpg'
+img_src: '/assets/img/project/microtrials.png'
 project_name: Microtrials
-company: commercial
-status: Complete
-date: 22 July 2020
-city: London
-country: England
+ci: Prof K Dhaliwal, Prof JK Baillie
+startdate: 1 September 2021
+theme: Therapeutics
 ---
 
-## Microtrials
+## Early evaluation of efficacy
 
-With a list:
+The microtrials concept will test tiny doses of potential therapies in multiple areas of the lungs of critically ill patients. 
 
-- this iten
-- this one
-- these ones
+Advantages:
+
+- minimal risk of harm to the patient
+- directly measure effect on key endopoint: oxygenation function
+- determine efficacy with only 15 patients
 {: .marker-list}

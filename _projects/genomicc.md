@@ -1,7 +1,7 @@
 ---
 layout: project
-title: GenOMICC study
-img_src: '/assets/img/project/p1.jpg'
+title: GenOMICC (Genetics of Mortality In Critical Care)
+img_src: '/assets/img/project/genomicc.png'
 project_name: GenOMICC Study
 ci: Prof JK Baillie
 startdate: 10 November 2015

@@ -43,12 +43,25 @@ layout: default
                     <div class="project-history">
                         <div class="project-name">
                             <ul>
-                                <li><span>Project :</span> {{page.project_name}}</li>
-                                <li><span>Company :</span> {{page.company}}</li>
-                                <li><span>Status :</span> {{page.status}}</li>
-                                <li><span>Date :</span> {{page.date}}</li>
-                                <li><span>City :</span> {{page.city}}</li>
-                                <li><span>Country :</span> {{page.country}}</li>
+                                {% if page.project_name %}
+                                <li><span>Project:</span> {{page.project_name}}</li>
+                                {% endif %}
+
+                                {% if page.company %}
+                                <li><span>Company:</span> {{page.company}}</li>
+                                {% endif %}
+
+                                {% if page.ci %}
+                                <li><span>Lead Scientist:</span> {{page.ci}}</li>
+                                {% endif %}
+
+                                {% if page.startdate %}
+                                <li><span>Start date:</span> {{page.startdate}}</li>
+                                {% endif %}
+
+                                {% if page.theme %}
+                                <li><span>PSH Theme:</span> {{page.theme}}</li>
+                                {% endif %}
                             </ul>
                         </div>
                     </div>
@@ -62,8 +75,10 @@ layout: default
                 <div class="col-xl-4 col-lg-4 col-md-5">
                     <div class="new-project">
                         <div class="project-new">
-                            <h4>Browse other projects currently underway at the Pandemic Science Hub</h4>
+                            <br>
+                            <h4>Browse other projects currently underway at the Baillie Gifford Pandemic Science Hub:</h4>
                             <!--<a class="hire-btn">Choose a random project</a>-->
+                            <br>
                         </div>
                     </div>
                 </div>
