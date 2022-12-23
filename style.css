@@ -1192,7 +1192,7 @@ div#preloader {
   position: relative;
   background: url(/assets/img/background/bg2.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   z-index: 1;
 }
